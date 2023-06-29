@@ -11,8 +11,6 @@ monitorQueues = async () => {
   }
 }
 
-console.log(process.env)
-
 const interval = process.env.INTERVAL || (15 * 1000 * 60); // 15 minutes;
 
 console.log(`Monitoring RabbitMQ queues every ${interval / 1000 / 60} minutes`)

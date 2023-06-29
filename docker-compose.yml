@@ -1,0 +1,12 @@
+version: "3.2"
+services:
+  rabbit-monitor:
+    image: regisleandro/rabbit-monitor:latest
+    container_name: rabbit-monitor
+    environment:
+      - RABBITMQ_URL=
+      - RABBITMQ_USERNAME=
+      - RABBITMQ_PASSWORD=
+      - RABBITMQ_VHOST=
+      - ELASTIC_URL=
+      - ELASTIC_AUTHORIZATION=
