@@ -50,12 +50,6 @@ Follow the steps below to set up and run Rabbit Monitor:
    node index.js
    ```
 
-## Usage
-
-After installing and starting Rabbit Monitor, you can access the control panel in your browser. Log in using the configured user credentials and navigate through different sections to view metrics and statistics of your RabbitMQ cluster.
-
-Customize the dashboard according to your needs, add charts, tables, and alerts to monitor the most important aspects of your RabbitMQ environment.
-
 ## Contribution
 
 Contributions are welcome! If you would like to contribute to Rabbit Monitor, follow these steps:
